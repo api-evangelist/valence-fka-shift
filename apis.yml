@@ -1,8 +1,13 @@
 aid: valence-fka-shift
 name: Valence (FKA Shift)
-description: Valence (FKA Shift) is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Valence (formerly Shift) is an enterprise AI coaching platform backed by
+  Insight Partners. Its flagship product, Nadia, is an AI leadership coach
+  that helps managers and their teams adopt AI, build skills, and improve
+  teamwork, alongside team tools Align, Habit, Perspective, Reflect 360, and
+  Connect. The platform is enterprise SaaS with SAML SSO and SCIM
+  provisioning, certified SOC 2 Type 2, ISO 27001, and ISO 42001, and
+  publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/valence-fka-shift/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +15,34 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/615dec181d595dbe552d184b/69bc18035f1aa3f79ee72902_Valence%20Webclip.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Coaching
+- Leadership Development
+- Human Resources
+- Teamwork
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,35 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/valence-fka-shift-domain-security.yml
 - type: Website
   url: https://www.valence.co/
+- type: About
+  url: https://www.valence.co/about
+- type: Careers
+  url: https://www.valence.co/careers
+- type: Blog
+  url: https://www.valence.co/blog
+- type: Login
+  url: https://coach.valence.co/
+- type: Support
+  url: https://support.valence.co/
+- type: TermsOfService
+  url: https://www.valence.co/other/terms
+- type: PrivacyPolicy
+  url: https://www.valence.co/other/privacy
+- type: SLA
+  url: https://www.valence.co/other/sla
+- type: StatusPage
+  url: https://status.valence.co/
+- type: TrustCenter
+  url: security/valence-fka-shift-trust-center.yml
+- type: Compliance
+  url: https://www.valence.co/trust-and-security
+- type: Conformance
+  url: conformance/valence-fka-shift-conformance.yml
+- type: Lifecycle
+  url: lifecycle/valence-fka-shift-lifecycle.yml
+- type: LLMsTxt
+  url: llms/valence-fka-shift-llms.txt

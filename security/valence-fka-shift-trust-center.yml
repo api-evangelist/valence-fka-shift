@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.valence.co/trust-and-security
+url: https://trust.valence.co/
+platform: Vanta (hosted trust center)
+description: >-
+  Valence publishes a Vanta-hosted trust center at trust.valence.co (HTTP 200,
+  title "Valence Trust Center") and a marketing trust page at
+  valence.co/trust-and-security. The trust page states Nadia (the AI coaching
+  product) is certified SOC 2 Type 2, ISO 27001, and ISO 42001 (responsible AI
+  management), is GDPR compliant and EU AI Act adherent, and claims to be the
+  only AI coaching platform certified across all three. Security posture
+  includes AES-256 encryption at rest, TLS 1.2+ in transit, SAML SSO, SCIM
+  provisioning, RBAC, single-tenant data isolation, annual external audits with
+  penetration testing, and zero data retention for model training.
+certifications:
+  - SOC 2 Type 2
+  - ISO 27001
+  - ISO 42001
+  - GDPR
+  - EU AI Act (adherence)
+data_practices:
+  - No customer data used for AI model training
+  - Confidential individual conversations (managers cannot access)
+  - Customizable data retention policies
+  - US or EU data residency options
+evidence:
+  - {source: 'https://trust.valence.co/', status: 200, kind: trust center (Vanta)}
+  - {source: 'https://www.valence.co/trust-and-security', status: 200, keywords: [soc 2 type 2, iso 27001, iso 42001, gdpr, eu ai act]}

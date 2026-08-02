@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://status.valence.co (Uptime.com status page, HTTP 200),
+  https://www.valence.co/other/sla (HTTP 200),
+  https://www.valence.co/trust-and-security
+status_page: https://status.valence.co/
+status_page_platform: Uptime.com
+sla:
+  url: https://www.valence.co/other/sla
+  public_uptime_target: null
+versioning: null
+deprecation: null
+notes: >-
+  Valence is an enterprise SaaS platform (AI coaching, product Nadia) with no
+  public developer API surface; there is no published API versioning or
+  deprecation policy. The company does publish a public status page
+  (status.valence.co, Uptime.com) and a service level agreement page
+  (valence.co/other/sla).
+deprecated_operations: []

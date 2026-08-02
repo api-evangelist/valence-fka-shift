@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.valence.co
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+other_hosts:
+  - host: https://coach.valence.co
+    note: application host; all paths return 403 (auth-gated)
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+      - path: /.well-known/openid-configuration
+        status: 403
+notes: >-
+  No /.well-known/ discovery surface is published on the Valence website or
+  application hosts. docs.valence.co, api.valence.co, and developer.valence.co
+  do not resolve. Absence recorded as probed on 2026-07-21.
