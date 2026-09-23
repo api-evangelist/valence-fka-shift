@@ -1,0 +1,36 @@
+# Front Door AI Index — valence-fka-shift — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: valence-fka-shift
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.valence.co
+  final_host: www.valence.co
+  ownership: own
+  owner: valence-fka-shift
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 459
+  host_score: 459
+  density: 24.67
+  words: 18604
+  tiers:
+    agentic: 54
+    core: 389
+    model: 16
+  ambiguous: 78
+  top_terms:
+    AI: 376
+    agent: 40
+    intelligence: 23
+    AI agent: 15
+    agentic: 13
+    chatbot: 8
+    artificial intelligence: 6
+    cognitive: 6
+    AI assistant: 5
+    ChatGPT: 5
+    automation: 5
+    copilot: 5
