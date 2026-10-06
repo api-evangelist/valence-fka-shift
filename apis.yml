@@ -45,7 +45,7 @@ accessModel:
 image: https://cdn.prod.website-files.com/615dec181d595dbe552d184b/69bc18035f1aa3f79ee72902_Valence%20Webclip.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -61,6 +61,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.valence.co/blog/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/valence-fka-shift-domain-security.yml
 - type: Website
